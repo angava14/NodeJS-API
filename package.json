@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-api",
+  "version": "1.0.0",
+  "description": "API designed with NodeJS.",
+  "main": "server.js",
+  "scripts": {
+    "test": "",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angava14/NodeJS-API.git"
+  },
+  "author": "Git: angava14, Socials: @Andr3sGarces",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angava14/NodeJS-API/issues"
+  },
+  "homepage": "https://github.com/angava14/NodeJS-API#readme",
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.1.6",
+    "morgan": "^1.9.0"
+  }
+}
